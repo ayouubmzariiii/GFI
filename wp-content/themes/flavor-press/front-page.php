@@ -31,7 +31,7 @@ get_header();
             <span>Les Saveurs</span>
         </h1>
         <p class="hero__subtitle">
-            Sauces artisanales préparées avec les meilleurs ingrédients. Audacieuses, uniques et inoubliables — chaque goutte raconte une histoire.
+            Sauces artisanales aux meilleurs ingrédients. Audacieuses, uniques et inoubliables — chaque goutte raconte une histoire.
         </p>
         <div class="hero__cta-group">
             <a href="#products" class="btn btn--primary">
