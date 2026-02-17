@@ -226,12 +226,12 @@
             const submit = this.querySelector('.newsletter__submit');
 
             if (input && input.value) {
-                submit.textContent = 'Subscribed! ✓';
+                submit.textContent = 'Abonné ! ✓';
                 submit.style.background = '#0d5a2e';
                 input.value = '';
 
                 setTimeout(() => {
-                    submit.textContent = 'Subscribe';
+                    submit.textContent = 'S\'abonner';
                     submit.style.background = '';
                 }, 3000);
             }

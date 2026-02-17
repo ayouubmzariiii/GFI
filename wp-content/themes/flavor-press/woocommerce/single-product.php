@@ -35,7 +35,7 @@ get_header(); ?>
 
                 <!-- Product Summary -->
                 <div class="product-summary animate-on-scroll delay-2">
-                    <span class="section__label">Premium Selection</span>
+                    <span class="section__label">Sélection Premium</span>
                     <h1 class="product_title entry-title"><?php the_title(); ?></h1>
                     
                     <div class="product-price-wrapper" style="margin-bottom: var(--space-lg);">
@@ -63,11 +63,11 @@ get_header(); ?>
                     <div class="product-meta" style="margin-top: var(--space-xl); padding-top: var(--space-lg); border-top: 1px solid rgba(0,0,0,0.1);">
                         <div class="about__feature" style="margin-bottom: var(--space-sm);">
                             <div class="about__feature-icon" style="width: 32px; height: 32px; font-size: 16px;">🌿</div>
-                            <span class="about__feature-text">100% Natural Ingredients</span>
+                            <span class="about__feature-text">Ingrédients 100% Naturels</span>
                         </div>
                         <div class="about__feature">
                             <div class="about__feature-icon" style="width: 32px; height: 32px; font-size: 16px;">🔥</div>
-                            <span class="about__feature-text">Small Batch Crafted</span>
+                            <span class="about__feature-text">Fabrication Artisanale</span>
                         </div>
                     </div>
                 </div>
@@ -76,8 +76,8 @@ get_header(); ?>
             <!-- Product Details Section -->
             <div class="product-details-section section" style="padding-top: var(--space-4xl); border-top: 1px solid var(--color-border);">
                 <div class="section__header animate-on-scroll">
-                    <span class="section__label">In-Depth</span>
-                    <h2 class="section__title">The Finer Details</h2>
+                    <span class="section__label">En Détail</span>
+                    <h2 class="section__title">Les Détails Raffinés</h2>
                 </div>
                 <div class="product-description content-block animate-on-scroll delay-1" style="font-size: var(--font-size-lg); line-height: 1.8; color: var(--color-text-light); max-width: 800px;">
                      <?php the_content(); ?>
@@ -87,8 +87,8 @@ get_header(); ?>
             <!-- Reviews Section -->
             <div id="product-reviews-wrapper" class="product-reviews-section section" style="padding-top: var(--space-4xl); border-top: 1px solid var(--color-border);">
                  <div class="section__header animate-on-scroll">
-                    <span class="section__label">Community</span>
-                    <h2 class="section__title">Flavor Feedback</h2>
+                    <span class="section__label">Communauté</span>
+                    <h2 class="section__title">Avis & Retours</h2>
                 </div>
                 <div class="animate-on-scroll delay-1">
                     <?php
@@ -102,8 +102,8 @@ get_header(); ?>
             <!-- Related Products -->
             <section class="related-products section" style="padding-top: var(--space-4xl);">
                 <div class="section__header animate-on-scroll">
-                    <span class="section__label">You Might Also Like</span>
-                    <h2 class="section__title">Pair It With</h2>
+                    <span class="section__label">Vous Pourriez Aimer</span>
+                    <h2 class="section__title">À Associer Avec</h2>
                 </div>
                 <?php
                 $related_limit = 4;

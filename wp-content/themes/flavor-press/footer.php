@@ -3,12 +3,12 @@
     <div class="container">
         <div class="newsletter__inner">
             <div class="newsletter__content">
-                <h2 class="newsletter__title">Stay Saucy With Us</h2>
-                <p class="newsletter__text">Subscribe and be the first to know about new flavors, recipes, and exclusive offers.</p>
+                <h2 class="newsletter__title">Restez Connecté</h2>
+                <p class="newsletter__text">Abonnez-vous pour être le premier informé des nouvelles saveurs, recettes et offres exclusives.</p>
             </div>
             <form class="newsletter__form" action="#" method="post">
-                <input type="email" class="newsletter__input" placeholder="Enter your email" required>
-                <button type="submit" class="newsletter__submit">Subscribe</button>
+                <input type="email" class="newsletter__input" placeholder="Entrez votre email" required>
+                <button type="submit" class="newsletter__submit">S'abonner</button>
             </form>
         </div>
     </div>
@@ -20,25 +20,25 @@
         <div class="marquee__item">
             <span class="marquee__text">GFI</span>
             <span class="marquee__dot"></span>
-            <span class="marquee__text">Bold Sauces</span>
+            <span class="marquee__text">Sauces Audacieuses</span>
             <span class="marquee__dot"></span>
-            <span class="marquee__text">Pure Flavor</span>
+            <span class="marquee__text">Saveur Pure</span>
             <span class="marquee__dot"></span>
-            <span class="marquee__text">Handcrafted</span>
+            <span class="marquee__text">Fait Main</span>
             <span class="marquee__dot"></span>
-            <span class="marquee__text">Since 2015</span>
+            <span class="marquee__text">Depuis 2015</span>
             <span class="marquee__dot"></span>
         </div>
         <div class="marquee__item">
             <span class="marquee__text">GFI</span>
             <span class="marquee__dot"></span>
-            <span class="marquee__text">Bold Sauces</span>
+            <span class="marquee__text">Sauces Audacieuses</span>
             <span class="marquee__dot"></span>
-            <span class="marquee__text">Pure Flavor</span>
+            <span class="marquee__text">Saveur Pure</span>
             <span class="marquee__dot"></span>
-            <span class="marquee__text">Handcrafted</span>
+            <span class="marquee__text">Fait Main</span>
             <span class="marquee__dot"></span>
-            <span class="marquee__text">Since 2015</span>
+            <span class="marquee__text">Depuis 2015</span>
             <span class="marquee__dot"></span>
         </div>
     </div>
@@ -53,7 +53,7 @@
                 <a href="<?php echo esc_url(home_url('/')); ?>" class="header__logo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="GFI" style="height: 40px; width: auto; filter: brightness(0) invert(1);">
                 </a>
-                <p class="footer__brand-text">Premium artisan sauces crafted with passion. Every bottle tells a story of bold flavors and quality ingredients.</p>
+                <p class="footer__brand-text">Sauces artisanales de qualité supérieure créées avec passion. Chaque bouteille raconte une histoire de saveurs audacieuses et d'ingrédients de qualité.</p>
                 <div class="footer__socials">
                     <a href="#" class="footer__social-btn" aria-label="Facebook">
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
@@ -72,43 +72,43 @@
 
             <!-- Company Links -->
             <div class="footer__col">
-                <h3 class="footer__heading">Company</h3>
+                <h3 class="footer__heading">Entreprise</h3>
                 <nav class="footer__links">
-                    <a href="#about">Our Story</a>
-                    <a href="#products">Our Sauces</a>
-                    <a href="#categories">Flavors</a>
-                    <a href="#">Careers</a>
-                    <a href="#">Press</a>
+                    <a href="#about">Notre Histoire</a>
+                    <a href="#products">Nos Sauces</a>
+                    <a href="#categories">Saveurs</a>
+                    <a href="#">Carrières</a>
+                    <a href="#">Presse</a>
                 </nav>
             </div>
 
             <!-- Help Links -->
             <div class="footer__col">
-                <h3 class="footer__heading">Need Help?</h3>
+                <h3 class="footer__heading">Besoin d'aide ?</h3>
                 <nav class="footer__links">
-                    <a href="#contact">Contact Us</a>
-                    <a href="#">FAQs</a>
-                    <a href="#">Shipping</a>
-                    <a href="#">Returns</a>
-                    <a href="#">Track Order</a>
+                    <a href="#contact">Contactez-nous</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Livraison</a>
+                    <a href="#">Retours</a>
+                    <a href="#">Suivre ma commande</a>
                 </nav>
             </div>
 
             <!-- Legal Links -->
             <div class="footer__col">
-                <h3 class="footer__heading">Legal</h3>
+                <h3 class="footer__heading">Légal</h3>
                 <nav class="footer__links">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
-                    <a href="#">Cookie Policy</a>
-                    <a href="#">Refund Policy</a>
+                    <a href="#">Politique de Confidentialité</a>
+                    <a href="#">Conditions d'Utilisation</a>
+                    <a href="#">Politique de Cookies</a>
+                    <a href="#">Politique de Remboursement</a>
                 </nav>
             </div>
         </div>
 
         <!-- Bottom Bar -->
         <div class="footer__bottom">
-            <p>&copy; <?php echo date('Y'); ?> General Foods Industry. All rights reserved.</p>
+            <p>&copy; <?php echo date('Y'); ?> General Foods Industry. Tous droits réservés.</p>
             <div class="footer__payments">
                 <span>Visa</span>
                 <span>Mastercard</span>

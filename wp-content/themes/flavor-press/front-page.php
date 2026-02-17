@@ -24,28 +24,28 @@ get_header();
     <div class="hero__content">
         <div class="hero__badge">
             <span class="hero__badge-dot"></span>
-            Premium Artisan Sauces
+            Sauces Artisanales Premium
         </div>
         <h1 class="hero__title">
-            Dive Into
-            <span>Flavors</span>
+            Plongez Dans
+            <span>Les Saveurs</span>
         </h1>
         <p class="hero__subtitle">
-            Handcrafted sauces made with the finest ingredients. Bold, unique, and unforgettable — every drop tells a story.
+            Sauces artisanales préparées avec les meilleurs ingrédients. Audacieuses, uniques et inoubliables — chaque goutte raconte une histoire.
         </p>
         <div class="hero__cta-group">
             <a href="#products" class="btn btn--primary">
-                Shop Now
+                Acheter Maintenant
                 <span class="btn__arrow">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
                 </span>
             </a>
-            <a href="#about" class="btn btn--outline">Our Story</a>
+            <a href="#about" class="btn btn--outline">Notre Histoire</a>
         </div>
     </div>
 
     <div class="hero__scroll-indicator">
-        <span>Scroll</span>
+        <span>Découvrir</span>
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"></path><path d="M19 12l-7 7-7-7"></path></svg>
     </div>
 </section>
@@ -54,9 +54,9 @@ get_header();
 <section class="section section--warm" id="products">
     <div class="container">
         <div class="section__header animate-on-scroll">
-            <span class="section__label">Best Sellers</span>
-            <h2 class="section__title">Get Saucy With Us</h2>
-            <p class="section__description">Our most-loved flavors, crafted to perfection and loved by sauce enthusiasts worldwide.</p>
+            <span class="section__label">Meilleures Ventes</span>
+            <h2 class="section__title">Relevez le Goût</h2>
+            <p class="section__description">Nos saveurs les plus appréciées, élaborées à la perfection et adorées par les amateurs de sauces du monde entier.</p>
         </div>
 
         <div class="products-grid">
@@ -101,9 +101,9 @@ get_header();
                             <?php endif; ?>
                             
                             <?php if ($product->is_on_sale()) : ?>
-                                <span class="product-card__badge">Sale!</span>
+                                <span class="product-card__badge">Promo !</span>
                             <?php elseif ($product->is_featured()) : ?>
-                                <span class="product-card__badge">Best Seller</span>
+                                <span class="product-card__badge">Best-Seller</span>
                             <?php endif; ?>
                         </div>
                         <div class="product-card__info">
@@ -127,13 +127,13 @@ get_header();
                 wp_reset_postdata();
             else :
                 ?>
-                <p>No products found yet! Add some in WooCommerce.</p>
+                <p>Aucun produit trouvé pour le moment ! Ajoutez-en dans WooCommerce.</p>
             <?php endif; ?>
         </div>
 
         <div style="text-align: center; margin-top: var(--space-3xl);">
             <a href="#" class="btn btn--outline-dark">
-                View All Sauces
+                Voir Toutes les Sauces
                 <span class="btn__arrow">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
                 </span>
@@ -146,9 +146,9 @@ get_header();
 <section class="section" id="categories">
     <div class="container">
         <div class="section__header animate-on-scroll">
-            <span class="section__label">Our Collections</span>
-            <h2 class="section__title">Choose Your Vibe</h2>
-            <p class="section__description">Whether you love classic flavors, fiery heat, or bold experiments — we've got the sauce for you.</p>
+            <span class="section__label">Nos Collections</span>
+            <h2 class="section__title">Choisissez Votre Style</h2>
+            <p class="section__description">Que vous aimiez les saveurs classiques, la chaleur ardente ou les expériences audacieuses — nous avons la sauce pour vous.</p>
         </div>
 
         <div class="categories-grid">
@@ -158,10 +158,10 @@ get_header();
                 <div class="category-card__overlay"></div>
                 <div class="category-card__content">
                     <span class="category-card__tag">Collection</span>
-                    <h3 class="category-card__title">The Classics</h3>
-                    <p class="category-card__count">12 Signature Flavors</p>
+                    <h3 class="category-card__title">Les Classiques</h3>
+                    <p class="category-card__count">12 Saveurs Signature</p>
                     <a href="#" class="category-card__link">
-                        Explore
+                        Explorer
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
                     </a>
                 </div>
@@ -173,10 +173,10 @@ get_header();
                 <div class="category-card__overlay"></div>
                 <div class="category-card__content">
                     <span class="category-card__tag">Collection</span>
-                    <h3 class="category-card__title">BBQ Lovers</h3>
-                    <p class="category-card__count">8 Smoky Creations</p>
+                    <h3 class="category-card__title">Amoureux du BBQ</h3>
+                    <p class="category-card__count">8 Créations Fumées</p>
                     <a href="#" class="category-card__link">
-                        Explore
+                        Explorer
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
                     </a>
                 </div>
@@ -187,11 +187,11 @@ get_header();
                 <div class="category-card__bg"></div>
                 <div class="category-card__overlay"></div>
                 <div class="category-card__content">
-                    <span class="category-card__tag">Limited Edition</span>
-                    <h3 class="category-card__title">Chef's Special</h3>
-                    <p class="category-card__count">5 Exclusive Recipes</p>
+                    <span class="category-card__tag">Édition Limitée</span>
+                    <h3 class="category-card__title">Spécial Chef</h3>
+                    <p class="category-card__count">5 Recettes Exclusives</p>
                     <a href="#" class="category-card__link">
-                        Explore
+                        Explorer
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
                     </a>
                 </div>
@@ -208,38 +208,38 @@ get_header();
                 <div class="about__image"></div>
                 <div class="about__image-badge">
                     <span class="about__image-badge-year">20+</span>
-                    <span class="about__image-badge-text">Years</span>
+                    <span class="about__image-badge-text">Ans</span>
                 </div>
             </div>
             <div class="about__content animate-on-scroll delay-2">
-                <span class="section__label">Our Story</span>
+                <span class="section__label">Notre Histoire</span>
                 <h2 class="about__title">
-                    Born From
+                    Né de la
                     <span>Passion</span>
                 </h2>
                 <p class="about__text">
-                    What started as a family recipe in a small kitchen has grown into a global flavor revolution. Every one of our sauces is crafted with love, using only the finest, ethically-sourced ingredients. We believe that great food deserves great sauce — and we're here to deliver.
+                    Ce qui a commencé comme une recette familiale dans une petite cuisine est devenu une révolution mondiale des saveurs. Chacune de nos sauces est préparée avec amour, en n'utilisant que les ingrédients les plus fins et sourcés de manière éthique. Nous croyons que la grande cuisine mérite une grande sauce — et nous sommes là pour ça.
                 </p>
                 <div class="about__features">
                     <div class="about__feature">
                         <div class="about__feature-icon">🌿</div>
-                        <span class="about__feature-text">All-Natural Ingredients</span>
+                        <span class="about__feature-text">Ingrédients 100% Naturels</span>
                     </div>
                     <div class="about__feature">
                         <div class="about__feature-icon">🔥</div>
-                        <span class="about__feature-text">Small-Batch Crafted</span>
+                        <span class="about__feature-text">Fabrication Artisanale</span>
                     </div>
                     <div class="about__feature">
                         <div class="about__feature-icon">🌍</div>
-                        <span class="about__feature-text">Globally Inspired</span>
+                        <span class="about__feature-text">Inspiration Mondiale</span>
                     </div>
                     <div class="about__feature">
                         <div class="about__feature-icon">❤️</div>
-                        <span class="about__feature-text">Made With Love</span>
+                        <span class="about__feature-text">Fait Avec Amour</span>
                     </div>
                 </div>
                 <a href="#" class="btn btn--secondary">
-                    Learn More
+                    En Savoir Plus
                     <span class="btn__arrow">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
                     </span>
@@ -253,30 +253,30 @@ get_header();
 <section class="section section--dark stats" id="stats">
     <div class="container">
         <div class="section__header animate-on-scroll">
-            <span class="section__label">Our Impact</span>
-            <h2 class="section__title">The Sauce That<br>Crosses Borders</h2>
+            <span class="section__label">Notre Impact</span>
+            <h2 class="section__title">La Sauce Qui<br>Traverse les Frontières</h2>
         </div>
 
         <div class="stats-grid">
             <div class="stat-item animate-on-scroll delay-1">
                 <div class="stat-item__icon">🍶</div>
                 <div class="stat-item__number" data-count="50">0</div>
-                <div class="stat-item__label">Unique Flavors</div>
+                <div class="stat-item__label">Saveurs Uniques</div>
             </div>
             <div class="stat-item animate-on-scroll delay-2">
                 <div class="stat-item__icon">🌍</div>
                 <div class="stat-item__number" data-count="30">0</div>
-                <div class="stat-item__label">Countries Reached</div>
+                <div class="stat-item__label">Pays Atteints</div>
             </div>
             <div class="stat-item animate-on-scroll delay-3">
                 <div class="stat-item__icon">🤝</div>
                 <div class="stat-item__number" data-count="5000">0</div>
-                <div class="stat-item__label">Happy Partners</div>
+                <div class="stat-item__label">Partenaires Heureux</div>
             </div>
             <div class="stat-item animate-on-scroll delay-4">
                 <div class="stat-item__icon">⭐</div>
                 <div class="stat-item__number" data-count="350">0</div>
-                <div class="stat-item__label">Million Meals Served</div>
+                <div class="stat-item__label">Millions de Repas Servis</div>
             </div>
         </div>
     </div>
@@ -286,9 +286,9 @@ get_header();
 <section class="section" id="reviews">
     <div class="container">
         <div class="section__header animate-on-scroll">
-            <span class="section__label">Testimonials</span>
-            <h2 class="section__title">What People Are Saying</h2>
-            <p class="section__description">Don't just take our word for it — hear from our flavor-loving community.</p>
+            <span class="section__label">Témoignages</span>
+            <h2 class="section__title">Ce Que Disent les Gens</h2>
+            <p class="section__description">Ne nous croyez pas sur parole — écoutez notre communauté passionnée de saveurs.</p>
         </div>
 
         <div class="reviews-grid">
@@ -303,13 +303,13 @@ get_header();
                     <span class="review-card__star">★</span>
                 </div>
                 <p class="review-card__text">
-                    "The Golden Heat sauce is absolutely incredible! The balance between honey sweetness and spicy kick is perfection. My burgers have never been the same."
+                    "La sauce Golden Heat est absolument incroyable ! L'équilibre entre la douceur du miel et le piquant est parfait. Mes burgers ne sont plus les mêmes."
                 </p>
                 <div class="review-card__author">
                     <div class="review-card__avatar">M</div>
                     <div class="review-card__author-info">
                         <h4>Marcus T.</h4>
-                        <p>Food Blogger</p>
+                        <p>Blogueur Culinaire</p>
                     </div>
                 </div>
             </div>
@@ -325,13 +325,13 @@ get_header();
                     <span class="review-card__star">★</span>
                 </div>
                 <p class="review-card__text">
-                    "I've tried every hot sauce on the market, and GFI is on another level. The quality of ingredients shines through in every bottle. Total game changer!"
+                    "J'ai essayé toutes les sauces piquantes du marché, et GFI est à un autre niveau. La qualité des ingrédients transparaît dans chaque bouteille. Un vrai changement !"
                 </p>
                 <div class="review-card__author">
                     <div class="review-card__avatar">S</div>
                     <div class="review-card__author-info">
                         <h4>Sarah K.</h4>
-                        <p>Home Chef</p>
+                        <p>Chef à Domicile</p>
                     </div>
                 </div>
             </div>
@@ -347,13 +347,13 @@ get_header();
                     <span class="review-card__star">★</span>
                 </div>
                 <p class="review-card__text">
-                    "We've been using GFI sauces in our restaurant for over a year now. Our customers absolutely love them! The Forest Fire is our number one seller."
+                    "Nous utilisons les sauces GFI dans notre restaurant depuis plus d'un an maintenant. Nos clients les adorent complètement ! La Forest Fire est notre numéro un."
                 </p>
                 <div class="review-card__author">
                     <div class="review-card__avatar">J</div>
                     <div class="review-card__author-info">
                         <h4>James R.</h4>
-                        <p>Restaurant Owner</p>
+                        <p>Propriétaire de Restaurant</p>
                     </div>
                 </div>
             </div>
@@ -365,11 +365,11 @@ get_header();
 <section class="section section--primary cta-section">
     <div class="container">
         <div class="cta__inner animate-on-scroll">
-            <span class="section__label">Ready to Get Saucy?</span>
-            <h2 class="cta__title">Saucify Your Life</h2>
-            <p class="cta__text">Join thousands of flavor enthusiasts who've upgraded their meals with our premium artisan sauces.</p>
+            <span class="section__label">Prêt à Relever le Goût ?</span>
+            <h2 class="cta__title">Pimentez Votre Vie</h2>
+            <p class="cta__text">Rejoignez des milliers de passionnés de saveurs qui ont sublimé leurs repas avec nos sauces artisanales premium.</p>
             <a href="#products" class="btn btn--secondary">
-                Shop Collection
+                Voir la Collection
                 <span class="btn__arrow">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
                 </span>

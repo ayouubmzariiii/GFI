@@ -13,7 +13,7 @@ do_action( 'woocommerce_before_checkout_form', $checkout );
 
 // If checkout registration is disabled and not logged in, the user cannot checkout.
 if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_required() && ! is_user_logged_in() ) {
-    echo esc_html( apply_filters( 'woocommerce_checkout_must_be_logged_in_message', __( 'You must be logged in to checkout.', 'woocommerce' ) ) );
+    echo esc_html( apply_filters( 'woocommerce_checkout_must_be_logged_in_message', __( 'Vous devez être connecté pour commander.', 'woocommerce' ) ) );
     return;
 }
 
@@ -50,7 +50,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
         <!-- Order Review (Right Sidebar) -->
         <div class="checkout-layout__sidebar" style="flex: 1; min-width: 300px;">
             <div class="checkout-review-order" style="background: var(--color-bg-warm); padding: var(--space-xl); border-radius: var(--radius-lg); position: sticky; top: 120px;">
-                <h3 id="order_review_heading" style="margin-bottom: var(--space-lg);"><?php esc_html_e( 'Your Order', 'woocommerce' ); ?></h3>
+                <h3 id="order_review_heading" style="margin-bottom: var(--space-lg);"><?php esc_html_e( 'Votre Commande', 'woocommerce' ); ?></h3>
                 
                 <?php do_action( 'woocommerce_checkout_before_order_review' ); ?>
 

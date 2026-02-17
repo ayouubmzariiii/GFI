@@ -3,7 +3,7 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Premium artisan sauces crafted with passion. Explore our bold, unique flavors that transform every meal into an extraordinary experience.">
+    <meta name="description" content="Sauces artisanales de qualité supérieure créées avec passion. Découvrez nos saveurs audacieuses et uniques qui transforment chaque repas en une expérience extraordinaire.">
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -23,7 +23,7 @@
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1v-3.52a6.37 6.37 0 0 0-.79-.05A6.34 6.34 0 0 0 3.15 15a6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V8.73a8.19 8.19 0 0 0 4.76 1.52v-3.4a4.85 4.85 0 0 1-1-.16z"/></svg>
             </a>
         </div>
-        <div class="top-bar__tagline">✦ Handcrafted Sauces, Bold Flavors ✦</div>
+        <div class="top-bar__tagline">✦ Sauces Artisanales, Saveurs Audacieuses ✦</div>
     </div>
 </div>
 
@@ -52,7 +52,7 @@
             <!-- Search Removed -->
             
             <?php if (class_exists('WooCommerce')) : ?>
-                <a href="<?php echo wc_get_cart_url(); ?>" class="header__action-btn cart-btn" aria-label="Cart">
+                <a href="<?php echo wc_get_cart_url(); ?>" class="header__action-btn cart-btn" aria-label="Panier">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
                     <?php if (WC()->cart->get_cart_contents_count() > 0) : ?>
                         <span class="cart-count"><?php echo WC()->cart->get_cart_contents_count(); ?></span>
@@ -61,7 +61,7 @@
             <?php endif; ?>
 
             <!-- Mobile Toggle -->
-            <button class="header__mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+            <button class="header__mobile-toggle" id="mobile-toggle" aria-label="Menu">
                 <span></span>
                 <span></span>
                 <span></span>

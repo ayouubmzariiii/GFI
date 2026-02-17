@@ -11,7 +11,7 @@ get_header(); ?>
     <div class="container">
         <?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
             <div class="section__header" style="margin-bottom: var(--space-2xl);">
-                <span class="section__label">Premium Sauces</span>
+                <span class="section__label">Sauces Premium</span>
                 <h1 class="section__title"><?php woocommerce_page_title(); ?></h1>
                 <?php do_action( 'woocommerce_archive_description' ); ?>
             </div>
