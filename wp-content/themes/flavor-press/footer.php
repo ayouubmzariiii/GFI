@@ -3,7 +3,7 @@
     <div class="container">
         <div class="newsletter__inner">
             <div class="newsletter__content">
-                <h2 class="newsletter__title">Restez Connecté</h2>
+                <h2 class="newsletter__title">Restez Connecté.</h2>
                 <p class="newsletter__text">Abonnez-vous pour être le premier informé des nouvelles saveurs, recettes et offres exclusives.</p>
             </div>
             <form class="newsletter__form" action="#" method="post">
